@@ -660,6 +660,10 @@ section.score-container .container .left p {
   section.cta-section {
     background-position: 0;
   }
+
+  section.cta-section .container{
+    text-align: center;
+  }
 }
 
 /* cta section start here */
