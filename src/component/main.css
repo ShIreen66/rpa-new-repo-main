@@ -527,7 +527,7 @@ section.score-container .container .left p {
 }
 
 .secure-content h2 {
-  font-size: 42px;
+  /* font-size: 42px; */
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -637,10 +637,35 @@ section.score-container .container .left p {
   top: 50px;
 }
 
+@media (max-width:768px) {
+  .sticky-animation {
+    position: static;
+    top: unset;
+  }
+
+  section.score-container .container .left {
+    width: 100%;
+  }
+
+  section.score-container .container img {
+    position: relative;
+    max-width: 100%;
+    border-top-right-radius: 12px;
+  }
+
+  section.score-container {
+    padding-top: 35px;
+  }
+
+  section.cta-section {
+    background-position: 0;
+  }
+}
+
 /* cta section start here */
 section.cta-section {
   background-image: url(/src/assets/cta-bg.png);
-  background-color: red;
+  /* background-color: red; */
   min-height: 380px;
   background-position: 0 -70px;
   background-size: cover;
